@@ -16,7 +16,7 @@ main{
 
 header{
     width: 100%;
-    background: linear-gradient(to top, gray, darkgray);
+    background: darkgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ header{
 }
 
 body{
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ footer{
 
 nav{
     width: 100%;
-    background: linear-gradient(to top, gray, lightgray);
+    background: linear-gradient(to top, gray, darkgray);
     display: flex;
     flex-direction: column;
     justify-content: center;
