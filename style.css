@@ -65,7 +65,7 @@ nav{
     align-items: center;
     padding: 20px;
     background: radial-gradient(lightgray, gray);
-    border-radius: 100px;
+    border-radius: 75px;
     box-shadow: 5px 5px 10px rgb(87, 87, 87);
 }
 
