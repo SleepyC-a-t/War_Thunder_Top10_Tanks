@@ -93,11 +93,12 @@ div a{
 
 .rank{
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: radial-gradient(lightgray, gray);
-    padding: 20px;
+    padding: 50px;
     border-radius: 100px;
     box-shadow: 5px 5px 10px rgb(87, 87, 87);
     width: 90dvb;
