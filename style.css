@@ -55,7 +55,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 1%;
+    gap: 2%;
 }
 
 .lobby > div{
@@ -102,4 +102,10 @@ div a{
     box-shadow: 5px 5px 10px rgb(87, 87, 87);
     width: 80dvb;
     height: 80dvh;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font: italic bold 32px "Fira Sans",  serif;
 }
