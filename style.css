@@ -19,13 +19,14 @@ main{
 
 header{
     width: 100%;
-    height: 8dvh;
+    height: 4dvh;
     background: darkgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    flex: 1;
 }
 
 body{
@@ -44,11 +45,12 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    flex: 1;
 }
 
 nav{
     width: 100%;
-    height: 5dvh;
+    height: 3dvh;
     background: linear-gradient(to top, gray, darkgray);
     display: flex;
     flex-direction: row;
@@ -56,6 +58,7 @@ nav{
     align-items: center;
     padding: 20px;
     gap: 2%;
+    flex: 1;
 }
 
 .lobby > div{
@@ -101,7 +104,7 @@ div a{
     padding: 50px;
     border-radius: 100px;
     box-shadow: 5px 5px 10px rgb(87, 87, 87);
-    width: 90dvb;
+    width: 60%;
     height: 80dvh;
 }
 
