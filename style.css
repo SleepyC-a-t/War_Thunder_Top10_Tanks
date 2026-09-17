@@ -72,6 +72,17 @@ nav{
     box-shadow: 5px 5px 10px rgb(87, 87, 87);
 }
 
+.lobby > div:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(gray, darkgray);
+    border-radius: 75px;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
+}
+
 h1{
     font: italic bold 64px "Fira Sans",  serif;
 }
@@ -112,6 +123,28 @@ nav a{
     text-decoration: none;
     color: black;
     font: italic bold 32px "Fira Sans",  serif;
+}
+
+.li{
+    text-decoration: none;
+    color: black;
+    font: italic bold 32px "Fira Sans",  serif;
+    background: rgb(160, 158, 158);
+    border-radius: 100px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.li:hover{
+    text-decoration: none;
+    color: black;
+    font: italic bold 32px "Fira Sans",  serif;
+    background: rgb(115, 113, 113);
+    border-radius: 100px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 @media screen {
