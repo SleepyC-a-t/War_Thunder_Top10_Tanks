@@ -6,8 +6,10 @@
 
 main{
     width: 100%;
-    min-height: 82.5dvh;
+    
     flex: 1;
+
+    flex-grow: 5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -31,6 +33,7 @@ header{
 
 body{
     display: flex;
+    min-height: 100dvh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
