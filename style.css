@@ -13,8 +13,8 @@ main{
     grid-template-rows: 1fr 1fr;
     background: gray;
     gap: 2%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 header{
@@ -132,14 +132,7 @@ nav a{
 }
 
 .li:hover{
-    text-decoration: none;
-    color: black;
-    font: italic bold 32px "Fira Sans",  serif;
     background: rgb(115, 113, 113);
-    border-radius: 100px;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 @media screen and (max-width: 800px) {
@@ -154,4 +147,7 @@ nav a{
   h2{
     font: italic bold 24px "Fira Sans",  serif;
   }
+  nav a{
+    font: italic bold 16px "Fira Sans",  serif;
+}
 }
