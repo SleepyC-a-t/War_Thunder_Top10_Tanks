@@ -139,18 +139,21 @@ nav a{
 }
 
 @media screen and (max-width: 800px) {
-  main{
+main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     min-height: 100dvh;
-  }
-  h1{
+}
+h1{
     font: italic bold 32px "Fira Sans",  serif;
-  }
-  h2{
+}
+h2{
     font: italic bold 24px "Fira Sans",  serif;
-  }
-  nav a{
+}
+nav a{
     font: italic bold 16px "Fira Sans",  serif;
+}
+.rank{
+    width: 80%;
 }
 }
